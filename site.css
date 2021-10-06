@@ -4,7 +4,7 @@
   border-radius: 4px;
   margin: 10px auto 30px;
   padding: 10px;
-  width: 400px;
+  width: 100%;
   height: 400px;
   transition: background-color 0.3s;
 }
@@ -23,8 +23,8 @@
   display: inline-block;
   position: absolute;
   z-index: 999;
-  padding: 1px;
-  margin: 1px;
+  padding: 2em 0.5em;
+  margin: 1rem 0 0 1rem;
   touch-action: none;
   transform: translate(0px, 0px);
   width: 60px;
