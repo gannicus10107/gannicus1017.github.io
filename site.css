@@ -1,6 +1,6 @@
 .draggable {
-  margin: 1rem 0 0 1rem;
   padding: 4%;
+  margin: 1rem 0 0 1rem;
   touch-action: none;
   user-select: none;
 }
