@@ -17,58 +17,64 @@
   <script src="base.js"></script>
 </head>
 <body>
-  <h1>Diablo 2 Resurrected rune helper</h1>
-  <div class="container-fluid" id="pageContainer">
+  <div class="container-fluid">
+    <h1>Diablo 2 Resurrected rune helper</h1>
     <div class="row">
-      <div class="col-lg-4">
-        <label>Drop your runes into the container and click on calculate</label>
-      </div>
-    </div>
-    <div class="row" style="display: none">
-      <div class="col-lg-4"></div>
-    </div>
-    <div class="row">
-      <div class="col-lg-2">
-        <button type="button" class="btn btn-primary">Calculate</button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-2">
-        <div
-          class="drag-drop"
-          data-x="0"
-          data-y="0"
-          style="transform: translate(0px, 0px)"
-        >
-          <span title="El Rune"
-            ><img
-              alt="RuneEl.gif"
-              src="content/RuneEl.gif"
-              data-image-name="RuneEl.gif"
-              data-image-key="RuneEl.gif"
-              data-src="content/RuneEl.gif"
-            />El
-          </span>
+      <div class="col-lg-9" id="pageContainer"> 
+        <div class="row">
+          <div class="col-lg-4">
+            <label>Drop your runes into the container and click on calculate</label>
+          </div>
         </div>
-        <div
-          class="drag-drop"
-          data-x="0"
-          data-y="30"
-          style="transform: translate(0px, 30px)"
-        >
-          <span title="Eld Rune"
-            ><img
-              alt="RuneEld.gif"
-              src="content/RuneEld.gif"
-              data-image-name="RuneEld.gif"
-              data-image-key="RuneEld.gif"
-              data-src="content/RuneEld.gif"
-            />Eld
-          </span>
+        <div class="row">
+          <div class="col-lg-2">
+            <button type="button" class="btn btn-primary">Calculate</button>
+          </div>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="dropzone"></div>
+        <div class="row">
+          <div class="col-lg-2">
+            <div
+              class="drag-drop"
+              data-x="0"
+              data-y="0"
+              style="transform: translate(0px, 0px)"
+            >
+              <span title="El Rune"
+                ><img
+                  alt="RuneEl.gif"
+                  src="content/RuneEl.gif"
+                  data-image-name="RuneEl.gif"
+                  data-image-key="RuneEl.gif"
+                  data-src="content/RuneEl.gif"
+                />El
+              </span>
+            </div>
+            <div
+              class="drag-drop"
+              data-x="0"
+              data-y="30"
+              style="transform: translate(0px, 30px)"
+            >
+              <span title="Eld Rune"
+                ><img
+                  alt="RuneEld.gif"
+                  src="content/RuneEld.gif"
+                  data-image-name="RuneEld.gif"
+                  data-image-key="RuneEld.gif"
+                  data-src="content/RuneEld.gif"
+                />Eld
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="dropzoneRow">
+          <div class="col-lg-4">
+            <div class="dropzone"></div>
+          </div>
+          <div class="col-lg-2">
+            <label>Result:</label>
+          </div>
+        </div>
       </div>
     </div>
   </div>
