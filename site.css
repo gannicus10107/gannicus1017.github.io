@@ -1,5 +1,5 @@
 #dropzoneRow {
-  padding-top: 140px;
+  padding-top: 200px;
 }
 
 .dropzone {
@@ -10,6 +10,7 @@
   padding: 10px;
   transition: background-color 0.3s;
   min-height: 200px;
+  /* min-width: 300px; */
 }
 
 .drop-active {
