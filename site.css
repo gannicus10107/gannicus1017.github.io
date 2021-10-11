@@ -13,6 +13,10 @@
   /* min-width: 300px; */
 }
 
+label {
+  font-weight: bold;
+}
+
 .drop-active {
   border-color: #aaa;
 }
