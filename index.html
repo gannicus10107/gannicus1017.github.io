@@ -472,11 +472,11 @@
           result.style.display = "";
           resultDiv += "".concat("<div>", occurance, "</div>");
         }
-        if (anyResult) {
-          resultContainer.insertAdjacentHTML("afterbegin", resultDiv);
-        } else {
-          alert("".concat("Nincs találat!"));
-        }
+      }
+      if (anyResult) {
+        resultContainer.insertAdjacentHTML("afterbegin", resultDiv);
+      } else {
+        alert("".concat("Nincs találat!"));
       }
     };
 
